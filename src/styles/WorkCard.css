@@ -1,0 +1,37 @@
+.services-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.work-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.services-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    margin-bottom: 1.2rem;
+}
+.services-card img{
+    width: 100%;
+}
+h2{
+    color: #fff;
+}
+.work-details{
+    padding-bottom: 1rem ;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+@media screen and (max-width: 740px){
+    .work-container{
+        max-width: 50%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,33 @@
+.about{
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.benjamin{
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.benjamin h1{
+    margin-bottom: 1rem;
+}
+.benjamin h4{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.benjamin img{
+    width: 180px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+.benjamin p{
+    width: 350px;
+    margin-bottom: 1rem;
+}

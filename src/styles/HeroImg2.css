@@ -1,0 +1,68 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    height: 60vh;
+    position: relative;
+  
+}
+.hero-img::before{
+    content: "";
+    background: url('https://diariodeavisos.elespanol.com/canariasenred/wp-content/uploads/2021/12/Screenshot_13.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-description{
+    margin-top: 10px;
+    width: 1000px;
+}
+.worker{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.worker h2{
+    color: #fff;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width:640px){
+    .hero-img h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:821px){
+    .heading p{
+        width: 800px;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:416px){
+    .heading p{
+        width: 340px;
+        font-size: 1rem;
+    }
+}
